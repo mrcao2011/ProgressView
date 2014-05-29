@@ -13,4 +13,23 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+#define iPad ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+#define iPhone ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+
+#define  ViewHeight [[UIScreen mainScreen] bounds].size.height
+#define  ViewWidth [[UIScreen mainScreen] bounds].size.width
+
+#define iPhone5 ([[UIScreen mainScreen] bounds].size.height >=568)
+//判断是否为iPhone
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+//判断是否为iPad
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+//判断是否为ipod
+#define IS_IPOD ([[[UIDevice currentDevice] model] isEqualToString:@"iPod touch"])
+//判断是否为iPhone5
+#define IS_IPHONE_5_SCREEN [[UIScreen mainScreen] bounds].size.height >= 568.0f && [[UIScreen mainScreen] bounds].size.height < 1024.0f
+
 #endif

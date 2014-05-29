@@ -19,6 +19,14 @@
 		C6676C3E193472B600DD5706 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6676C26193472B600DD5706 /* UIKit.framework */; };
 		C6676C46193472B600DD5706 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6676C44193472B600DD5706 /* InfoPlist.strings */; };
 		C6676C48193472B600DD5706 /* ProgressViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6676C47193472B600DD5706 /* ProgressViewDemoTests.m */; };
+		C6676C541934733000DD5706 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6676C521934733000DD5706 /* CCViewController.m */; };
+		C6676C551934733000DD5706 /* CCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6676C531934733000DD5706 /* CCViewController.xib */; };
+		C6676C581934749A00DD5706 /* CCProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6676C571934749A00DD5706 /* CCProgressView.m */; };
+		C6678846193475E300DD5706 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C6678842193475E200DD5706 /* LICENSE */; };
+		C6678847193475E300DD5706 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C6678843193475E300DD5706 /* README.md */; };
+		C6678848193475E300DD5706 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6678845193475E300DD5706 /* UICountingLabel.m */; };
+		C6B3617E19357631001F7140 /* IOKit in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B3617D19357631001F7140 /* IOKit */; };
+		C6B361851935C561001F7140 /* UIDevice+ProcessesAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B361841935C561001F7140 /* UIDevice+ProcessesAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,20 @@
 		C6676C43193472B600DD5706 /* ProgressViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgressViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C6676C45193472B600DD5706 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6676C47193472B600DD5706 /* ProgressViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewDemoTests.m; sourceTree = "<group>"; };
+		C6676C511934733000DD5706 /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCViewController.h; path = ProgressViewDemo/CCViewController.h; sourceTree = "<group>"; };
+		C6676C521934733000DD5706 /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCViewController.m; path = ProgressViewDemo/CCViewController.m; sourceTree = "<group>"; };
+		C6676C531934733000DD5706 /* CCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CCViewController.xib; path = ProgressViewDemo/CCViewController.xib; sourceTree = "<group>"; };
+		C6676C561934749A00DD5706 /* CCProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCProgressView.h; path = ProgressViewDemo/CCProgressView.h; sourceTree = "<group>"; };
+		C6676C571934749A00DD5706 /* CCProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCProgressView.m; path = ProgressViewDemo/CCProgressView.m; sourceTree = "<group>"; };
+		C6678842193475E200DD5706 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C6678843193475E300DD5706 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C6678844193475E300DD5706 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		C6678845193475E300DD5706 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		C6B3617D19357631001F7140 /* IOKit */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = IOKit; sourceTree = "<group>"; };
+		C6B3618119357669001F7140 /* IOPowerSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOPowerSources.h; path = ProgressViewDemo/IOPowerSources.h; sourceTree = "<group>"; };
+		C6B3618219357669001F7140 /* IOPSKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOPSKeys.h; path = ProgressViewDemo/IOPSKeys.h; sourceTree = "<group>"; };
+		C6B361831935C561001F7140 /* UIDevice+ProcessesAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ProcessesAdditions.h"; sourceTree = "<group>"; };
+		C6B361841935C561001F7140 /* UIDevice+ProcessesAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ProcessesAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6676C25193472B600DD5706 /* CoreGraphics.framework in Frameworks */,
+				C6B3617E19357631001F7140 /* IOKit in Frameworks */,
 				C6676C27193472B600DD5706 /* UIKit.framework in Frameworks */,
 				C6676C23193472B600DD5706 /* Foundation.framework in Frameworks */,
 			);
@@ -77,6 +100,17 @@
 		C6676C16193472B600DD5706 = {
 			isa = PBXGroup;
 			children = (
+				C6B361831935C561001F7140 /* UIDevice+ProcessesAdditions.h */,
+				C6B361841935C561001F7140 /* UIDevice+ProcessesAdditions.m */,
+				C6B3618119357669001F7140 /* IOPowerSources.h */,
+				C6B3618219357669001F7140 /* IOPSKeys.h */,
+				C6B3617D19357631001F7140 /* IOKit */,
+				C6678841193475E200DD5706 /* UICountingLabel */,
+				C6676C561934749A00DD5706 /* CCProgressView.h */,
+				C6676C571934749A00DD5706 /* CCProgressView.m */,
+				C6676C511934733000DD5706 /* CCViewController.h */,
+				C6676C521934733000DD5706 /* CCViewController.m */,
+				C6676C531934733000DD5706 /* CCViewController.xib */,
 				C6676C28193472B600DD5706 /* ProgressViewDemo */,
 				C6676C41193472B600DD5706 /* ProgressViewDemoTests */,
 				C6676C21193472B600DD5706 /* Frameworks */,
@@ -144,6 +178,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C6678841193475E200DD5706 /* UICountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C6678842193475E200DD5706 /* LICENSE */,
+				C6678843193475E300DD5706 /* README.md */,
+				C6678844193475E300DD5706 /* UICountingLabel.h */,
+				C6678845193475E300DD5706 /* UICountingLabel.m */,
+			);
+			path = UICountingLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,6 +248,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C6676C16193472B600DD5706;
 			productRefGroup = C6676C20193472B600DD5706 /* Products */;
@@ -221,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6676C2D193472B600DD5706 /* InfoPlist.strings in Resources */,
+				C6676C551934733000DD5706 /* CCViewController.xib in Resources */,
+				C6678847193475E300DD5706 /* README.md in Resources */,
+				C6678846193475E300DD5706 /* LICENSE in Resources */,
 				C6676C35193472B600DD5706 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6676C33193472B600DD5706 /* CCAppDelegate.m in Sources */,
+				C6B361851935C561001F7140 /* UIDevice+ProcessesAdditions.m in Sources */,
+				C6676C581934749A00DD5706 /* CCProgressView.m in Sources */,
+				C6678848193475E300DD5706 /* UICountingLabel.m in Sources */,
 				C6676C2F193472B600DD5706 /* main.m in Sources */,
+				C6676C541934733000DD5706 /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +414,17 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProgressViewDemo/ProgressViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "ProgressViewDemo/ProgressViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/项目/防丢自拍/new/BLELoss0417",
+					addbaidu,
+					"map/BLELoss/libs/Release-iphoneos",
+					"/项目/防丢自拍/new/BLELoss0417",
+					addbaidu,
+					"map/BLELoss/libs/Release-iphonesimulator",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +438,17 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProgressViewDemo/ProgressViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "ProgressViewDemo/ProgressViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/项目/防丢自拍/new/BLELoss0417",
+					addbaidu,
+					"map/BLELoss/libs/Release-iphoneos",
+					"/项目/防丢自拍/new/BLELoss0417",
+					addbaidu,
+					"map/BLELoss/libs/Release-iphonesimulator",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +513,7 @@
 				C6676C4D193472B600DD5706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6676C4E193472B600DD5706 /* Build configuration list for PBXNativeTarget "ProgressViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +522,7 @@
 				C6676C50193472B600DD5706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
